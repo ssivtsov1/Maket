@@ -1,0 +1,7 @@
+ $form = ActiveForm::begin([
+         'layout' => 'inline',
+         'fieldConfig' => [
+             'labelOptions' => ['class' => ''],
+             'enableError' => true,
+         ]]); ?>
+    <h4 class="h3_nazv"><?= Html::encode('Години доби:') ?></h4>
